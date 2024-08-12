@@ -1,0 +1,14 @@
+##########################################
+# Custom
+##########################################
+
+[*.cs]
+# CA1707: Identifiers should not contain underscores
+# Justification: Test method names contain underscores
+# https://docs.microsoft.com/en-us/visualstudio/code-quality/ca1707
+dotnet_diagnostic.CA1707.severity = none
+
+# CS0618: Obsolete not for testing
+# Justification: Test method names contain obsolete methods call
+# https://docs.microsoft.com/ru-ru/dotnet/csharp/language-reference/compiler-messages/cs0618
+dotnet_diagnostic.CS0618.severity = none

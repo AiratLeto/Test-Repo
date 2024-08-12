@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+	"settings": {
+		"documentationRules": {
+			"copyrightText": "Licensed under the MIT license. See LICENSE file in the samples root for full license information.",
+			"companyName": "AiratSoft",
+			"xmlHeader": false,
+			"documentExposedElements": false
+		},
+		"layoutRules": {
+			"newlineAtEndOfFile": "allow"
+		},
+		"indentation": {
+			"indentationSize": 4,
+			"tabSize": 4,
+			"useTabs": true
+		},
+		"namingRules": {},
+		"orderingRules": {
+			"systemUsingDirectivesFirst": true,
+			"usingDirectivesPlacement": "outsideNamespace",
+			"elementOrder": [
+				"kind",
+				"accessibility",
+				"constant",
+				"static",
+				"readonly"
+			]
+		}
+	}
+}

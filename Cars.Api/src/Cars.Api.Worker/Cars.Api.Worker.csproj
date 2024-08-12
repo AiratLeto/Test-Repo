@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup Label="Package">
+		<Authors>AiratSoft</Authors>
+		<Company>AiratSoft</Company>
+		<Product>Название проекта</Product>
+		<Description>Описание проекта</Description>
+		<Copyright>Copyright © AiratSoft. All rights Reserved</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AspNetCore.HealthChecks.Hangfire" Version="6.0.2" />
+		<PackageReference Include="Hangfire.AspNetCore" Version="1.7.30" />
+		<PackageReference Include="Hangfire.MemoryStorage" Version="1.7.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Cars.Api.Contracts\Cars.Api.Contracts.csproj" />
+		<ProjectReference Include="..\Cars.Api.Core\Cars.Api.Core.csproj" />
+	</ItemGroup>
+
+</Project>
